@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+ #question-block {
+  border-left: 5px solid #DDDDDD ;
+  margin: 10px;
+ }
+
+ #answer-block {
+  border-left: 5px solid #DDDDDD ;
+  margin: 10px;
+ }
+
+ #question-block {
+
+ }
+
+ #answer-block {
+  background-color: #FFFFE1;
+ }
+
+ .answer-text {
+  font-weight: bold;;
+ }
+
+ .author {
+  font-style: italic;
+ }

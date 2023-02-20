@@ -1,0 +1,13 @@
+<div class="row" id="question-block">
+  <div class="content">
+    <p><%= params[:question]%></p>
+    <p class="author">—You</p>
+  </div>
+</div>
+<div class="row" id="answer-block">
+  <div class="content">
+    <p class="answer-text"><%= @answer%></p>
+    <p class="author">—Your coach</p>
+  </div>
+</div>
+<%= link_to "Ask a new question", ask_path, :class => "btn btn-primary" %>
